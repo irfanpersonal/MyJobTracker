@@ -24,7 +24,9 @@ const showStats = async(req, res) => {
 
 const getAllJobs = async(req, res) => {
     const {search, status, sort} = req.query;
-    const queryObject = {};
+    const queryObject = {
+        createdBy: req.user.userID
+    };
     if (search) {
         queryObject.name = {$regex: search, $options: 'i'};
     }
