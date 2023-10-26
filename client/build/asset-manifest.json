@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77d79a58.css",
+    "main.js": "/static/js/main.c9fe1e40.js",
+    "static/media/job_hunt.png": "/static/media/job_hunt.3808e5f873751614a5f6.png",
+    "index.html": "/index.html",
+    "main.77d79a58.css.map": "/static/css/main.77d79a58.css.map",
+    "main.c9fe1e40.js.map": "/static/js/main.c9fe1e40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77d79a58.css",
+    "static/js/main.c9fe1e40.js"
+  ]
+}
