@@ -4,10 +4,7 @@ import {pdfjs, Document, Page} from 'react-pdf';
 import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from "react-icons/fa";
 import {saveAs} from 'file-saver';
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-    'pdfjs-dist/build/pdf.worker.min.js',
-    import.meta.url,
-).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js';
 
 interface ViewPDFProps {
     location: string
